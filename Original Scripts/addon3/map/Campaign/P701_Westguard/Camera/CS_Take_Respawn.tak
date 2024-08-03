@@ -1,0 +1,32 @@
+<Takes>
+    <Take Name="CS_Take_Respawn">
+        <SourceTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="114.50800323" y="90.02902222" z="543.01501465" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.90000004" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="114.50800323" y="90.02902222" z="543.01501465" />
+                <Time Value="10.00000000" />
+                <FoV Value="0.90000004" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="119.07599640" y="85.00000000" z="550.08599854" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.90000004" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="119.07599640" y="85.00000000" z="550.08599854" />
+                <Time Value="10.00000000" />
+                <FoV Value="0.90000004" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

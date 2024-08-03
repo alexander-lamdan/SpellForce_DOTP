@@ -1,0 +1,20 @@
+<Takes>
+    <Take Name="CS2_ToShaman_Take01">
+        <SourceTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="445.00000000" y="30.00000000" z="123.35199738" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="445.00000000" y="10.00000000" z="143.35200500" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

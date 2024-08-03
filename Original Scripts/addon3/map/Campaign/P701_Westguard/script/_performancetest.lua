@@ -1,0 +1,77 @@
+---- wieviel sekunden verstreichen müssen, bis objekte wieder platziert/gelöscht werden
+--local iDelay = 5
+--
+---- anzahl der gebäude in X bzw. Y richtung
+--local iMaxX = 5
+--local iMaxY = 5
+--
+---- abstand zwischen den gebäuden
+--local iObjectDistance = 20
+--
+--
+--State
+--{
+--	StateName = "INIT",
+--
+--	OnEvent
+--	{
+--		EventName = "init",
+--		GotoState = "PlaceObjects",
+--		Conditions = 
+--		{
+--		},
+--		Actions = 
+--		{
+--			EntityTimerStart {Name = "et_Timer"},
+--		},
+--	};
+--}
+--
+--
+--local _tPlaceActions = {}
+--table.insert(_tPlaceActions, EntityTimerStart {Name = "et_Timer"})
+--for _x = 1, iMaxX do
+--	for _y = 1, iMaxY do
+--		table.insert(_tPlaceActions, ObjectSpawn {ObjectId = 1019, X = _x * iObjectDistance, Y = _y * iObjectDistance, Direction = math.random(0, 360), Tag = "castle_" .. _x .. "_" .. _y})
+--	end
+--end
+--
+--State
+--{
+--	StateName = "PlaceObjects",
+--
+--	OnEvent
+--	{
+--		EventName = "place it!",
+--		Conditions = 
+--		{
+--			EntityTimerIsElapsed {Name = "et_Timer", Seconds = iDelay},
+--		},
+--		Actions = _tPlaceActions,
+--		GotoState = "RemoveObjects",
+--	};
+--}
+--
+--local _tRemoveActions = {}
+--table.insert(_tRemoveActions, EntityTimerStart {Name = "et_Timer"})
+--for _x = 1, iMaxX do
+--	for _y = 1, iMaxY do
+--		table.insert(_tPlaceActions, ObjectVanish {Tag = "castle_" .. _x .. "_" .. _y})
+--	end
+--end
+--
+--State
+--{
+--	StateName = "RemoveObjects",
+--
+--	OnEvent
+--	{
+--		EventName = "remove it!",
+--		Conditions = 
+--		{
+--			EntityTimerIsElapsed {Name = "et_Timer", Seconds = iDelay},
+--		},
+--		Actions = _tRemoveActions,
+--		GotoState = "PlaceObjects",
+--	};
+--}

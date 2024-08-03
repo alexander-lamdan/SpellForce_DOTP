@@ -1,0 +1,20 @@
+<Takes>
+    <Take Name="CS4_ScrollStolen_Take01">
+        <SourceTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="158.81500244" y="19.00000000" z="258.02801514" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="140.30299377" y="20.00000000" z="266.22399902" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

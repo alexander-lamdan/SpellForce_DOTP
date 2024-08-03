@@ -1,0 +1,1 @@
+dofile("addon3/script/Survival_Global_Vars.lua")
